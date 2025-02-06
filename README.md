@@ -1,4 +1,4 @@
-# SoftEng2_Game-App-Strategy-Pattern-
+# GameApp characters and its skills set (Strategy Pattern)
 
 ### Problem scenario:
 
