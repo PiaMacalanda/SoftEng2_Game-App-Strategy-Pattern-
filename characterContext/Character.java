@@ -5,24 +5,24 @@ public class Character {
 
     private Attack attackStrategy;
     private Defend defendStrategy;
-    private String name;
+    private String type;
 
-    public Character(String name, Attack attackStrategy, Defend defendStrategy) {
+    public Character(String type, Attack attackStrategy, Defend defendStrategy) {
 
-        this.name = name;
+        this.type = type;
         this.attackStrategy = attackStrategy;
         this.defendStrategy = defendStrategy;
     }
 
     public void performAttack() {
 
-        System.out.print(name + " ");
+        System.out.print(type + " ");
         attackStrategy.attack();
     }
 
     public void performDefend() {
 
-        System.out.print(name + " ");
+        System.out.print(type + " ");
         defendStrategy.defend();
     }
 

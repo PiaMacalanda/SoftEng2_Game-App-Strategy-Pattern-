@@ -52,5 +52,7 @@ public class Character {
         }
     }
 }
+```
 
 ### UML Diagram: 
+![Image](https://github.com/user-attachments/assets/1b27f398-25bb-499a-b672-b166d82cfae9)
