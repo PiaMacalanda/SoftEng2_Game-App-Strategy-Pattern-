@@ -1,5 +1,5 @@
-import interfaces.Attack;
-import interfaces.Defend;
+package characterContext;
+import interfaces.*;
 
 public class Character {
     private Attack attackStrategy;
@@ -12,18 +12,18 @@ public class Character {
         this.defendStrategy = defendStrategy;
     }
 
-    public void attack() {
+    public void performAttack() {
         System.out.print(name + " ");
         attackStrategy.attack();
     }
 
-    public void defend() {
+    public void performDefend() {
         System.out.print(name + " ");
         defendStrategy.defend();
     }
 
-    // Setters for dynamic behavior change
-    public void setAttackStrategy(Attack attackStrategy) {
+     // ✅ Make sure these methods exist
+     public void setAttackStrategy(Attack attackStrategy) {
         this.attackStrategy = attackStrategy;
     }
 
