@@ -21,6 +21,7 @@ B.  **AttackStrategy**
 
 ### Refactor the existing codes:
 
+```java
 public class Character {
     private String type;
 
